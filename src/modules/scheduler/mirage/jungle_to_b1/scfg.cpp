@@ -44,7 +44,7 @@ void slp(double x,bool strict=0){
     fout<<format("alias syncer_callback \"exec {}/{}\"\n",path,++N);
     fout<<"syncer_schedule";
     fout=ofstream(format("Temp/{}.cfg",N),ios::out);
-    fout<<"//[Gen]\n\n";
+    fout<<"//[generated with scfg]\n\n";
 }
 
 void ang(double x,double y,bool needstd=1){
