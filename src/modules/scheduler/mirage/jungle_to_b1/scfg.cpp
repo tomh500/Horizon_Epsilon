@@ -213,7 +213,7 @@ void deletefile(){
     fin.close();
     fout.close();
     filesystem::remove_all(tempdir);
-    // filesystem::remove("run.cfg");
+    // filesystem::remove("run.cfg"); 
     // for(int i=0;;i++){
     //     ifstream tin(format("{}.cfg",i),ios::in);
     //     if(!tin)    break;
