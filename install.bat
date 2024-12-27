@@ -17,6 +17,7 @@ echo Expected folder name: %EXPECTED_FOLDER_NAME%
 if /I "%CURRENT_FOLDER_NAME%" neq "%EXPECTED_FOLDER_NAME%" (
     echo ERROR: The current folder is wrong!! Please check the Guide again
     echo 错误: 你的 Horizon 放置位置错误， 请重新查看教程的安装指引
+    pause
     exit /b 1
 )
 
@@ -24,7 +25,7 @@ if not exist "%~dp0..\..\..\cfg" (
     mkdir "%~dp0..\..\..\cfg\"
     echo GAMEROOT Does not exist... Created
 )
-copy "%~dp0src\modules\syncer\api\detect.cfg" "%~dp0..\..\..\cfg"
+copy "%~dp0src\modules\syncer\api\fetch.cfg" "%~dp0..\..\..\cfg"
 xcopy "%~dp0script\cfg" "%~dp0..\" /Y /E
 xcopy "%~dp0resource" "%~dp0..\..\resource\" /Y /E
 

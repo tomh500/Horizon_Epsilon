@@ -1,0 +1,55 @@
+DEFINEPATH Horizon/src/modules/scheduler/inferno/a1_to_quad
+
+SRC slot3
+SETANG setpos 1863.968506 -89.968750 205.871246;setang 15.369157 115.199051 0.000000
+SRC +right
+SRC +back
+BEEP
+
+SLEEP 0.3
+    SRC -right
+    SRC -back
+    SRC +forward
+
+
+
+
+
+
+
+
+
+SLEEPTICK 50
+SETBEGIN
+    SRC -forward
+    SRC +jump;-jump
+    SRC turnleft 0.43 0 0
+    SRC +left
+
+SLEEPTICK 20
+SETBEGIN
+    SRC -turnleft
+    SRC -left
+
+SLEEPTICK 1
+SETBEGIN
+    SRC +duck
+SLEEPTICK 1
+SETBEGIN
+    SRC -duck
+    SRC +jump
+SLEEPTICK 1
+SETBEGIN
+    SRC -jump
+    SRC turnleft 0.6 0 0
+    SRC +left
+
+SLEEPTICK 20
+    SRC -turnleft
+    SRC -left
+    SRC +duck
+
+SLEEP 0.9
+    SRC -duck
+
+END

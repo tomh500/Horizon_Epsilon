@@ -1,0 +1,45 @@
+DEFINEPATH Horizon/src/modules/scheduler/mirage/b_to_b2
+
+BEEP
+LOCKMOUSE
+SRC slot3
+SRC +back;+right
+SETANG setpos -1969.031250 450.032745 -96.128754;setang 14.075596 141.969025 0.000000
+
+SLEEP 0.3
+SRC -back;-right
+SRC +forward
+
+SLEEP 1
+    SRC -forward
+    SRC +jump;-jump
+
+SLEEP 0
+    SETANG setpos -2204.676270 641.488586 -37.791443;setang 4.388999 81.221199 0.000000
+    SRC +left
+
+SLEEP 0.2
+    SRC -left
+    SRC +forward
+
+SLEEP 0.5
+    SRC -forward
+    SRC +duck
+    SRC +jump;-jump
+    SRC slot2;slot1
+
+SLEEP 0.1
+    SRC -duck
+    SRC +right
+    SRC turnright 0.8 0 0
+
+SLEEP 0.3
+    SRC -turnright
+    SRC -right
+    SRC +duck
+    SETANG setpos -2074.228516 803.901428 16.916840;setang 3.753347 -8.385496 0.000000
+    UNLOCKMOUSE
+
+SLEEP 0.3
+    SRC -duck
+END

@@ -33,18 +33,17 @@ SETBEGIN
     SRC +right
 
 //停止旋转视角，按下W
-SLEEP 0.092
+SLEEPTICK 6
 SETBEGIN
+// CHECKTIME
     SRC -turnright
     SRC -right
-
-SLEEP 0
     SRC +forward
     SETANG setpos_exact -1069.560059 -591.568665 -263.968750;setang_exact 0.000000 55.354614 0.000000
 
 //再次起跳，大跳
-SLEEP 0.315
-CHECKTIME
+SLEEPTICK 20
+// CHECKTIME
 SETBEGIN
     SRC slot2;slot1
     SRC +duck

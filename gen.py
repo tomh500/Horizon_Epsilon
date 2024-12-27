@@ -58,8 +58,8 @@ def create_release():
     for file in additional_files:
         dest_file = os.path.join(temp_dir, os.path.basename(file))
         shutil.copy2(file, dest_file)
-    dest_file = os.path.join(temp_dir, os.path.basename('./install.exe'))
-    # shutil.copy2('./install.exe', dest_file)
+    dest_file = os.path.join(horizon_dir, os.path.basename('./install.exe'))
+    shutil.copy2('./install.exe', dest_file)
 
     # 6. 打包 Temp 目录为 zip 文件
     zip_filename = 'gen.zip'

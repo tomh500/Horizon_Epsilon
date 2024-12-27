@@ -1,0 +1,56 @@
+DEFINEPATH Horizon/src/modules/scheduler/mirage/vip_to_ladder
+
+SETANG setpos -1120.031250 -967.467224 -104.128754;setang 24.470583 91.478119 0.000000
+SRC slot3
+SRC +right
+SRC +back
+SRC syncerUpd_forceLow
+LOCKMOUSE
+BEEP
+
+SLEEP 0.4
+SETBEGIN
+    SRC -right
+    SRC -back
+    SRC +forward
+
+SLEEPTICK 44
+SETBEGIN
+    SRC -forward
+    SRC +jump;-jump
+    SRC +left
+    SRC turnleft 0.4 0 0
+
+SLEEPTICK 25
+SETBEGIN
+    SRC -turnleft
+    SRC -left
+    SRC +right
+    SRC turnright 0.55 0 0
+
+SLEEPTICK 11
+SETBEGIN
+    SRC +duck
+SLEEPTICK 1
+SETBEGIN
+    SRC -duck
+    SRC +jump
+SLEEPTICK 1
+SETBEGIN
+    SRC -jump
+    SRC hzCVAR_set_fps_max
+
+SLEEPTICK 4
+SETBEGIN
+    SRC -turnright
+    SRC -right
+    SRC +duck
+    UNLOCKMOUSE
+
+SLEEP 0.7
+    BEEP
+    SRC -duck
+    SRC syncer_updPolicy
+
+
+END

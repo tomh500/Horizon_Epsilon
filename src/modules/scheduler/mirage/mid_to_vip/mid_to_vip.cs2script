@@ -1,0 +1,39 @@
+DEFINEPATH Horizon/src/modules/scheduler/mirage/mid_to_vip
+
+//切枪
+    LOCKMOUSE
+    BEEP
+    SRC slot3
+    SRC +left
+    SRC +forward
+    SRC +duck
+    SETANG setpos_exact -801.968750 -788.965759 -261.968750;setang_exact 0.000000 180.000000 0.000000
+
+//设置初始视角，向右前方走
+SLEEP 0.3
+    SRC -left
+    SRC -duck
+    SRC +jump;-jump
+    SRC +sprint
+
+SLEEP 1.2
+    SRC -sprint
+
+SLEEP 0.2
+    SRC -forward
+    SRC +duck
+    SRC +jump;-jump
+    SRC slot2;slot1
+
+SLEEP 0.05
+    SRC -duck
+    SRC +right
+    SRC turnright 0.3 0 0
+
+SLEEP 0.5
+    SRC -turnright
+    SRC -right
+    SETANG setpos_exact -1068.738770 -647.966675 -263.968750;setang_exact 0.000000 -122.220840 0.000000
+BEEP
+UNLOCKMOUSE
+END
