@@ -1,0 +1,10 @@
+DEFINEPATH Horizon/src/modules/scheduler/stuff/jumpshot
+
++JUMP
+-JUMP
+
+SLEEP TICK(24)
+
+SRC +attack;-attack
+
+END

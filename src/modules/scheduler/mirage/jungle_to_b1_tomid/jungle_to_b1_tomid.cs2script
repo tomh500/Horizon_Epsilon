@@ -8,7 +8,7 @@ DEFINEPATH Horizon/src/modules/scheduler/mirage/jungle_to_b1_tomid
     SETANG setpos -1189.828491 -962.549011 -104.128754;setang -1.154999 37.157326 0.000000
 
 //设置初始视角，向右前方走
-SLEEP 0.3
+SLEEP 0.1
     SRC -back
     SRC +forward
 

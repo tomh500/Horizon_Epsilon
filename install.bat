@@ -58,6 +58,7 @@ echo Last line content: !LAST_LINE_CONTENT!
 if /i not "!LAST_LINE_CONTENT!"=="exec Horizon/load" (
     if /i not "!LAST_LINE_CONTENT!"=="exec Horizon/load " (
         echo Last line is not "exec Horizon/load". Adding it to the file...
+        echo.  >> "%AUTOEXEC_FILE%" 
         echo exec Horizon/load >> "%AUTOEXEC_FILE%"
     ) else (
         echo Last line is already "exec Horizon/load". No changes made.
