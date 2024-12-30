@@ -8,7 +8,7 @@ DEFINEPATH Horizon/src/modules/scheduler/mirage/vip_to_ladder
     LOCKMOUSE
     BEEP
 
-SLEEP 0.1
+SLEEP 0.3
 SETBEGIN
     -RIGHT
     -BACK
@@ -17,8 +17,7 @@ SETBEGIN
 SLEEPTICK 44
 SETBEGIN
     -FORWARD
-    +JUMP
-    -JUMP
+    JUMP
     SRC +left
     SRC turnleft 0.4 0 0
 
