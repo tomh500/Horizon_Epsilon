@@ -1,0 +1,137 @@
+DEFINEPATH Horizon/src/modules/scheduler/mirage/ctspawn1_to_bshort
+
+BEEP
+SLOT3
+LOCKMOUSE
+FPS_LOW
+SETANG setpos -1656.000000 -1800.000000 -266.000000;setang 13.493720 40.000000 0.000000
+SRC setpos -1656.000000 -1800.000000 -266
+
+SLEEP TICK(1)
+SETBEGIN
+
+// 直对超市走
+    +FORWARD
+    +LEFT
+SLEEP TICK(196)
+SETBEGIN
+
+// 斜向走
+    -LEFT
+SLEEP TICK(31)
+SETBEGIN
+
+// 起跳 + 旋转跳
+    JUMP
+    -FORWARD
+    SPEED_RIGHT 150
+SLEEP TICK(16)
+SETBEGIN
+
+// 旋转跳结束
+    SPEED_STOP
+
+// 下蹲，划刀开门
+SLEEP TICK(21)
+    +DUCK
+    +ATTACK
+    -ATTACK
+
+// 连跳快速进洞
+SLEEP TICK(5)
+SETBEGIN
+    -DUCK
+    JUMP
+SLEEP TICK(13)
+SETBEGIN
+
+// 再次连跳维持速度
+    JUMP
+SLEEP TICK(14)
+SETBEGIN
+
+//向左调整视角
+    SRC +turnleft
+SLEEP TICK(19)
+SETBEGIN
+
+// 移动
+    +FORWARD
+    SRC -turnleft
+SLEEP TICK(44)
+SETBEGIN
+
+// 起跳
+    JUMP
+    -FORWARD
+SLEEP TICK(4)
+SETBEGIN
+
+// 向左旋转跳上木桌
+    SPEED_LEFT 120
+SLEEP TICK(25)
+SETBEGIN
+
+// 向右旋转跳调整角度
+    SPEED_RIGHT 165
+SLEEP TICK(7)
+SETBEGIN
+
+// 利用jumpbug，向右旋转加速，向上调整视角准备开黑屋门
+    SPEED_RIGHT 160
+    SRC turnup 0.3 0 0
+    JUMPBUG
+SLEEP TICK(15)
+SETBEGIN
+
+// 停止视角旋转
+    SPEED_STOP
+    SRC -turnup
+    +DUCK
+SLEEP TICK(27)
+SETBEGIN
+
+// 弹跳，向右旋转跳
+    -DUCK
+    JUMP
+    SPEED_RIGHT 28
+SLEEP TICK(7)
+
+// 开门
+    +ATTACK
+    -ATTACK
+SLEEP TICK(3)
+SETBEGIN
+
+// 停止视角旋转，下蹲进洞
+    SPEED_STOP
+    +DUCK
+SLEEP TICK(20)
+SETBEGIN
+
+// 弹跳
+    -DUCK
+    JUMP
+SLEEP TICK(43)
+SETBEGIN
+
+// 连跳，切枪，向右旋转跳，向上调整至爆头线
+    JUMP
+    SLOT2
+    SLOT1
+    SPEED_RIGHT 90
+    SRC turnup 0.358 0 0
+SLEEP TICK(40)
+
+// 调整结束
+    SRC -turnup
+SLEEP TICK(22)
+SETBEGIN
+
+// 视角停止旋转
+    SPEED_STOP
+
+BEEP
+UNLOCKMOUSE
+FPS_RESET
+END

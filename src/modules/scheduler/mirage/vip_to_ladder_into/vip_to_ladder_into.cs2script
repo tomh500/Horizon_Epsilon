@@ -1,0 +1,104 @@
+DEFINEPATH Horizon/src/modules/scheduler/mirage/vip_to_ladder_into
+
+    SETANG setpos -1120.031250 -967.467224 -104.128754;setang -8.470583 91.478119 0.000000
+    SRC slot3
+    +RIGHT
+    +BACK
+    FPS_LOW
+    LOCKMOUSE
+    BEEP
+
+SLEEP 0.3
+SETBEGIN
+    -RIGHT
+    -BACK
+    +FORWARD
+
+SLEEPTICK 44
+SETBEGIN
+    -FORWARD
+    JUMP
+    SRC +left
+    SRC turnleft 0.4 0 0
+
+SLEEPTICK 25
+SETBEGIN
+    SRC -turnleft
+    SRC -left
+    SPEED_RIGHT 165
+
+SLEEPTICK 11
+SETBEGIN
+    SRC +duck
+SLEEPTICK 1
+SETBEGIN
+    SRC -duck
+    SRC +jump;-jump
+    SPEED_RIGHT 170
+    BEEP
+
+SLEEPTICK 7
+SETBEGIN
+    SPEED_STOP
+    SRC +duck
+
+SLEEP TICK(35)
+SETBEGIN
+    BEEP
+    SRC -duck
+    JUMP
+    // CVAR host_timescale 0
+// END
+
+SLEEP TICK(1)
+SETBEGIN
+
+    +DUCK
+    SPEED_RIGHT 30
+
+SLEEP TICK(7)
+SETBEGIN
+    SPEED_STOP
+    +ATTACK
+    -ATTACK
+    SRC turndown 0.9 0 0
+
+SLEEP TICK(15)
+SETBEGIN
+    BEEP
+    JUMP
+    SLOT2
+    SLOT1
+
+SLEEP TICK(10)
+SETBEGIN
+    -DUCK
+    JUMP
+    SPEED_LEFT 10
+    BEEP
+
+SLEEP TICK(5)
+SETBEGIN
+    JUMP
+    BEEP
+
+SLEEP TICK(10)
+SETBEGIN
+    SPEED_STOP
+    // SETFAKEANG setpos -1161.801147 -227.073303 7.871258;setang -8.470583 88.969376 0.000000
+    UNLOCKMOUSE
+    +SPRINT
+    SRC turnright 1 0 0
+    SRC -turndown
+    // MOVEANG TICK(40) setpos -1162.848633 -216.952698 7.871258;setang 22.514803 29.047798 0.000000
+SLEEP TICK(16)
+SETBEGIN
+    SRC -turnright
+
+SLEEP TICK(30)
+    -SPRINT
+
+    FPS_RESET
+
+
+END

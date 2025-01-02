@@ -1,0 +1,25 @@
+DEFINEPATH Horizon/src/modules/scheduler/stuff/attack_8tick
+
+// BEEP
+
++ATTACK
+-ATTACK
+
+SLEEP TICK(8)
+SETBEGIN
+
++ATTACK
+-ATTACK
+
+SLEEP TICK(8)
+SETBEGIN
+
++ATTACK
+-ATTACK
+
+SLEEP TICK(8)
+SETBEGIN
+
+DONT REBUILD
+
+END
