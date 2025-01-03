@@ -1,8 +1,9 @@
 DEFINEPATH Horizon/src/modules/scheduler/mirage/mid_to_vip
+WASD_CAN_CANCEL
 
 //切枪
     LOCKMOUSE
-    BEEP
+    // BEEP
     SRC slot3
     SRC +left
     SRC +forward
@@ -34,6 +35,6 @@ SLEEP 0.5
     SRC -turnright
     SRC -right
     SETANG setpos_exact -1068.738770 -647.966675 -263.968750;setang_exact 0.000000 -122.220840 0.000000
-BEEP
+// BEEP
 UNLOCKMOUSE
 END

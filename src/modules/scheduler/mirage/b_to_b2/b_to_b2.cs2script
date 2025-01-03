@@ -1,6 +1,7 @@
 DEFINEPATH Horizon/src/modules/scheduler/mirage/b_to_b2
+WASD_CAN_CANCEL
 
-BEEP
+// BEEP
 LOCKMOUSE
 SRC slot3
 SRC +back;+right

@@ -1,8 +1,9 @@
 DEFINEPATH Horizon/src/modules/scheduler/mirage/jungle_to_b1
+WASD_CAN_CANCEL
 
 //切枪
     LOCKMOUSE
-    BEEP
+    // BEEP
     SRC slot3
     SRC +back
     SRC +left
@@ -77,7 +78,7 @@ SLEEP 0.2625
 //取消下蹲
 SLEEP 0.3
     SRC -duck
-    BEEP
+    // BEEP
 
 // CVAR host_timescale 1
 END

@@ -1,6 +1,7 @@
 DEFINEPATH Horizon/src/modules/scheduler/mirage/ctspawn1_to_bshort
+WASD_CAN_CANCEL
 
-BEEP
+// BEEP
 SLOT3
 LOCKMOUSE
 FPS_LOW
@@ -131,7 +132,7 @@ SETBEGIN
 // 视角停止旋转
     SPEED_STOP
 
-BEEP
+// BEEP
 UNLOCKMOUSE
 FPS_RESET
 END

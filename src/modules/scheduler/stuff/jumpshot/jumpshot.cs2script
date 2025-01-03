@@ -1,7 +1,7 @@
 DEFINEPATH Horizon/src/modules/scheduler/stuff/jumpshot
+WASD_CAN_CANCEL
 
-+JUMP
--JUMP
+JUMP
 
 SLEEP TICK(24)
 

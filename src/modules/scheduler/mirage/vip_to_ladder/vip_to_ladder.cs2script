@@ -1,4 +1,5 @@
 DEFINEPATH Horizon/src/modules/scheduler/mirage/vip_to_ladder
+WASD_CAN_CANCEL
 
     SETANG setpos -1120.031250 -967.467224 -104.128754;setang 24.470583 91.478119 0.000000
     SRC slot3
@@ -6,7 +7,7 @@ DEFINEPATH Horizon/src/modules/scheduler/mirage/vip_to_ladder
     +BACK
     SRC syncerUpd_forceLow
     LOCKMOUSE
-    BEEP
+    // BEEP
 
 SLEEP 0.3
 SETBEGIN
@@ -48,7 +49,7 @@ SETBEGIN
     UNLOCKMOUSE
 
 SLEEP 0.7
-    BEEP
+    // BEEP
     SRC -duck
     SRC syncer_updPolicy
 

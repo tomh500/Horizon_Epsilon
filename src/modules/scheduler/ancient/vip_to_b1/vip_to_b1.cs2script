@@ -1,7 +1,8 @@
 
 DEFINEPATH Horizon/src/modules/scheduler/ancient/vip_to_b1
+WASD_CAN_CANCEL
 //
-    BEEP
+    // BEEP
     LOCKMOUSE
     FPS_LOW
     SLOT3
@@ -105,6 +106,6 @@ SETBEGIN
 SLEEP 0
     UNLOCKMOUSE
     FPS_RESET
-    BEEP
+    // BEEP
 
 END

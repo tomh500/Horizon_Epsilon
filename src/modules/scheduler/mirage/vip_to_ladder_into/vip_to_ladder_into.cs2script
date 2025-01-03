@@ -1,4 +1,5 @@
 DEFINEPATH Horizon/src/modules/scheduler/mirage/vip_to_ladder_into
+WASD_CAN_CANCEL
 
     SETANG setpos -1120.031250 -967.467224 -104.128754;setang -8.470583 91.478119 0.000000
     SRC slot3
@@ -6,7 +7,7 @@ DEFINEPATH Horizon/src/modules/scheduler/mirage/vip_to_ladder_into
     +BACK
     FPS_LOW
     LOCKMOUSE
-    BEEP
+    // BEEP
 
 SLEEP 0.3
 SETBEGIN
@@ -35,7 +36,7 @@ SETBEGIN
     SRC -duck
     SRC +jump;-jump
     SPEED_RIGHT 170
-    BEEP
+    // BEEP
 
 SLEEPTICK 7
 SETBEGIN
@@ -44,7 +45,7 @@ SETBEGIN
 
 SLEEP TICK(35)
 SETBEGIN
-    BEEP
+    // BEEP
     SRC -duck
     JUMP
     // CVAR host_timescale 0
@@ -65,7 +66,7 @@ SETBEGIN
 
 SLEEP TICK(15)
 SETBEGIN
-    BEEP
+    // BEEP
     JUMP
     SLOT2
     SLOT1
@@ -75,12 +76,12 @@ SETBEGIN
     -DUCK
     JUMP
     SPEED_LEFT 10
-    BEEP
+    // BEEP
 
 SLEEP TICK(5)
 SETBEGIN
     JUMP
-    BEEP
+    // BEEP
 
 SLEEP TICK(10)
 SETBEGIN
