@@ -15,7 +15,7 @@ SETBEGIN
     +FORWARD
     +LEFT
 SLEEP TICK(196)
-SETBEGIN
+// SETBEGIN
 
 // 斜向走
     -LEFT
@@ -27,7 +27,7 @@ SETBEGIN
     -FORWARD
     SPEED_RIGHT 150
 SLEEP TICK(16)
-SETBEGIN
+// SETBEGIN
 
 // 旋转跳结束
     SPEED_STOP
@@ -49,12 +49,12 @@ SETBEGIN
 // 再次连跳维持速度
     JUMP
 SLEEP TICK(14)
-SETBEGIN
+// SETBEGIN
 
 //向左调整视角
     SRC +turnleft
 SLEEP TICK(19)
-SETBEGIN
+// SETBEGIN
 
 // 移动
     +FORWARD
@@ -66,12 +66,12 @@ SETBEGIN
     JUMP
     -FORWARD
 SLEEP TICK(4)
-SETBEGIN
+// SETBEGIN
 
 // 向左旋转跳上木桌
     SPEED_LEFT 120
 SLEEP TICK(25)
-SETBEGIN
+// SETBEGIN
 
 // 向右旋转跳调整角度
     SPEED_RIGHT 165
@@ -83,7 +83,7 @@ SETBEGIN
     SRC turnup 0.3 0 0
     JUMPBUG
 SLEEP TICK(15)
-SETBEGIN
+// SETBEGIN
 
 // 停止视角旋转
     SPEED_STOP
@@ -102,7 +102,7 @@ SLEEP TICK(7)
     +ATTACK
     -ATTACK
 SLEEP TICK(3)
-SETBEGIN
+// SETBEGIN
 
 // 停止视角旋转，下蹲进洞
     SPEED_STOP
@@ -127,7 +127,7 @@ SLEEP TICK(40)
 // 调整结束
     SRC -turnup
 SLEEP TICK(22)
-SETBEGIN
+// SETBEGIN
 
 // 视角停止旋转
     SPEED_STOP

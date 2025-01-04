@@ -34,7 +34,7 @@ SETBEGIN
 
 //停止旋转视角，按下W
 SLEEPTICK 6
-SETBEGIN
+// SETBEGIN
 // CHECKTIME
     SRC -turnright
     SRC -forward
