@@ -25,9 +25,10 @@ if not exist "%~dp0..\..\..\cfg" (
     mkdir "%~dp0..\..\..\cfg\"
     echo GAMEROOT Does not exist... Created
 )
-copy "%~dp0script\installbatload_4_5_4.cfg" "%~dp0..\..\..\cfg"
-copy "%~dp0src\modules\syncer\api\fetch.cfg" "%~dp0..\..\..\cfg"
+@REM copy "%~dp0script\installbatload_4_5_4.cfg" "%~dp0..\..\..\cfg"
+@REM copy "%~dp0src\modules\syncer\api\fetch.cfg" "%~dp0..\..\..\cfg"
 xcopy "%~dp0script\cfg" "%~dp0..\" /Y /E
+xcopy "%~dp0script\gamecfg" "%~dp0..\..\..\cfg\" /Y /E
 xcopy "%~dp0resource" "%~dp0..\..\resource\" /Y /E
 
 cd "%~dp0..\"

@@ -1,6 +1,7 @@
 DEFINEPATH Horizon/src/modules/scheduler/mirage/jungle_to_b1_tomid
 WASD_CAN_CANCEL
 
+FPS_LOW
 //切枪
     LOCKMOUSE
     // BEEP
@@ -34,7 +35,7 @@ SETBEGIN
 
 //停止旋转视角，按下W
 SLEEPTICK 6
-// SETBEGIN
+SETBEGIN
 // CHECKTIME
     SRC -turnright
     SRC -forward
@@ -82,6 +83,7 @@ SLEEP 0.2625
 //取消下蹲
 SLEEP 0.3
     SRC -duck
+FPS_RESET
     // BEEP
 
 // CVAR host_timescale 1

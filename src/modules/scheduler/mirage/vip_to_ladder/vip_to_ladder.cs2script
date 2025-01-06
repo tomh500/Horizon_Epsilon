@@ -23,7 +23,7 @@ SETBEGIN
     SRC turnleft 0.4 0 0
 
 SLEEPTICK 25
-// SETBEGIN
+SETBEGIN
     SRC -turnleft
     SRC -left
     SRC +right
@@ -42,7 +42,7 @@ SETBEGIN
     SRC hzCVAR_set_fps_max
 
 SLEEPTICK 4
-// SETBEGIN
+SETBEGIN
     SRC -turnright
     SRC -right
     SRC +duck

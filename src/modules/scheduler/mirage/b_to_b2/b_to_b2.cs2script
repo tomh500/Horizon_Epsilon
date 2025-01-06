@@ -7,7 +7,7 @@ SRC slot3
 SRC +back;+right
 SETANG setpos -1969.031250 450.032745 -96.128754;setang 14.075596 141.969025 0.000000
 
-SLEEP 0.3
+SLEEP 0.1
 SRC -back;-right
 SRC +forward
 
