@@ -221,6 +221,9 @@
 	"CFG_Dust2_OutMid2"										"出中门闪\n \n \n \n"
 	"CFG_Dust2_FastMidTotal"								"快速XBox烟\n \n \n \n"
 
+	"Ignore_Broadcast_Messages"								"H‎o‎r‎i‎z‎o‎n C‎F‎G v‎4‎.‎7"
+	"Ignore_Broadcast_Team_Messages"						"B‎站 C‎a‎p‎1‎t‎a‎L 免‎费‎发‎布"
+	"Accept_All_Messages"									"此‎消‎息‎仅‎自‎己‎可‎见 | 观‎战‎和 d‎e‎m‎o‎录‎像 都‎不‎可‎见 | 第‎一‎回‎合‎结‎束‎后‎此‎消‎息‎消‎失"
 
 	"CFG_Mirage_Tramp"										"CT出生位匪口烟\n \n \n \n"
 
@@ -291,4 +294,31 @@
 	"Horizon_scheduler_mirage_ctspawn1_to_bshort_noladder"	"Mirage\nCT中路第一身位 -> B小\n(光速进洞+连跳)\n\n\n\n"
 
 	"Horizon_scheduler_ancient_vip_to_b1"					"Anceint\nVIP外 -> 跳台\n(连跳)\n\n\n\n"
+
+	"Horizon_scheduler_inferno_apts_to_roof"				"Inferno\n二楼 -> 马棚\n\n\n\n"
+
+	"Horizon_textemoji_000"										"¯\_(ツ)_/¯\n\n\n\n"
+	"Horizon_textemoji_001"										"w(ﾟДﾟ)w\n\n\n\n"
+	"Horizon_textemoji_002"										"Σ(っ °Д °;)っ\n\n\n\n"
+	"Horizon_textemoji_003"										"＼（〇_ｏ）／\n\n\n\n"
+	"Horizon_textemoji_004"										"（*＾-＾*）\n\n\n\n"
+	"Horizon_textemoji_005"										"(((o(*ﾟ▽ﾟ*)o)))\n\n\n\n"
+	"Horizon_textemoji_006"										"ψ(｀∇´)ψ\n\n\n\n"
+	"Horizon_textemoji_007"										"( *^-^)ρ(*╯^╰)\n\n\n\n"
+	"Horizon_textemoji_008"										"(╯‵□′)╯︵┻━┻\n\n\n\n"
+	"Horizon_textemoji_009"										"o((>ω< ))o\n\n\n\n"
+	"Horizon_textemoji_010"										"╰（‵□′）╯\n\n\n\n"
+	"Horizon_textemoji_011"										"╰(艹皿艹 )\n\n\n\n"
+	"Horizon_textemoji_012"										"(。_。)\n\n\n\n"
+	"Horizon_textemoji_013"										"( ╯□╰ )\n\n\n\n"
+	"Horizon_textemoji_014"										"┏ (゜ω゜)=☞\n\n\n\n"
+	"Horizon_textemoji_015"										"♪(´▽｀)\n\n\n\n"
+	"Horizon_textemoji_016"										"(☞ﾟヮﾟ)☞\n\n\n\n"
+	"Horizon_textemoji_017"										"( ´･･)ﾉ(._.`)\n\n\n\n"
+	"Horizon_textemoji_018"										"o(≧∀≦)o\n\n\n\n"
+	"Horizon_textemoji_019"										"(゜-゜)つロ ~\n\n\n\n"
+	"Horizon_textemoji_020"										"`(*>﹏<*)′\n\n\n\n"
+	"Horizon_textemoji_021"										"(┬┬﹏┬┬)\n\n\n\n"
+	"Horizon_textemoji_022"										"ヽ(゜▽ﾟ)ノ\n\n\n\n"
+	"Horizon_textemoji_023"										"^(*￣(oo)￣)^\n\n\n\n"
 }
