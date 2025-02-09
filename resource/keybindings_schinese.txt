@@ -221,7 +221,7 @@
 	"CFG_Dust2_OutMid2"										"出中门闪\n \n \n \n"
 	"CFG_Dust2_FastMidTotal"								"快速XBox烟\n \n \n \n"
 
-	"Ignore_Broadcast_Messages"								"H‎o‎r‎i‎z‎o‎n C‎F‎G v‎4‎.‎7"
+	"Ignore_Broadcast_Messages"								"H‎o‎r‎i‎z‎o‎n C‎F‎G v‎4‎.‎8"
 	"Ignore_Broadcast_Team_Messages"						"B‎站 C‎a‎p‎1‎t‎a‎L 免‎费‎发‎布"
 	"Accept_All_Messages"									"此‎消‎息‎仅‎自‎己‎可‎见 | 观‎战‎和 d‎e‎m‎o‎录‎像 都‎不‎可‎见 | 第‎一‎回‎合‎结‎束‎后‎此‎消‎息‎消‎失"
 
