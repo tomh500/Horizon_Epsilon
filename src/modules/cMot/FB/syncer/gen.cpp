@@ -14,7 +14,7 @@ void solve(int l,int r){
     if(p+1<=r){
         rc=format("cMotSyncer_FB_Ajudge_{}",t[(p+1+r)>>1]);
     }
-    fout<<format("alias cMotSyncer_FB_Ajudge_{} \"cMotSyncer_FB_A2D;incrementvar joy_axisbutton_threshold 0 {:4f} 0;cMotSyncer_FB_D2T;alias 0] cMotSyncer_FB_Ajudge_{}_nxt;alias cMotSyncer_FB_Ajudge_nxt {};cMotSyncer_FB_Tchk0;cMotSyncer_FB_Ajudge_nxt\"",t[p],t[p]*1.0/1000,t[p],lc)<<endl;
+    fout<<format("alias cMotSyncer_FB_Ajudge_{} \"cMotSyncer_FB_A2D;incrementvar tv_timeout 0 {:4f} 0;cMotSyncer_FB_D2T;alias 0] cMotSyncer_FB_Ajudge_{}_nxt;alias cMotSyncer_FB_Ajudge_nxt {};cMotSyncer_FB_Tchk0;cMotSyncer_FB_Ajudge_nxt\"",t[p],t[p]*1.0/1000,t[p],lc)<<endl;
     fout<<format("alias cMotSyncer_FB_Ajudge_{}_nxt \"alias cMotSyncer_FB_Ajudge_ret cMotSyncer_FB_Ajudge_{}_ret;alias cMotSyncer_FB_Ajudge_nxt {}\"",t[p],t[p],rc)<<endl;
     fout<<endl;
     solve(l,p-1);
