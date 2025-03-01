@@ -1,1 +1,0 @@
-scfg mid_to_vip
