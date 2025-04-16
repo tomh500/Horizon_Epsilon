@@ -1,0 +1,99 @@
+{
+    "grenades": [
+        {
+            "id": "mirage_windowsmoke_fast_1",
+            "name_zh_cn": "Mirage VIP瞬爆烟\\n一号位",
+            "name_en_us": "Mirage Instant Window\\nSpawn 1",
+            "map": "mirage",
+            "type": "smoke",
+            "priority": 1,
+            "throw_command": "hzNade_wjumpthrow_L",
+            "pre_throw_command": "",
+            "post_throw_command": "",
+            "angle": {
+                "yaw": -171.717000,
+                "pitch": -41.971962
+            },
+            "position": {
+                "x": 1296.000000,
+                "y": -352.000000
+            }
+        },
+        {
+            "id": "mirage_windowsmoke_fast_2",
+            "name_zh_cn": "Mirage VIP瞬爆烟\\n二号位",
+            "name_en_us": "Mirage Instant Window\\nSpawn 2",
+            "map": "mirage",
+            "type": "smoke",
+            "priority": 1,
+            "throw_command": "hzNade_wjumpthrow_forward_2frame",
+            "pre_throw_command": "",
+            "post_throw_command": "",
+            "angle": {
+                "yaw": -162.95,
+                "pitch": -27.075
+            },
+            "position": {
+                "x": 1296.000000,
+                "y": 32.000000
+            }
+        },
+        {
+            "id": "mirage_windowsmoke_fast_3",
+            "name_zh_cn": "Mirage VIP瞬爆烟\\n三号位",
+            "name_en_us": "Mirage Instant Window\\nSpawn 3",
+            "map": "mirage",
+            "type": "smoke",
+            "priority": 1,
+            "throw_command": "hzNade_wjumpthrow_L",
+            "pre_throw_command": "",
+            "post_throw_command": "",
+            "angle": {
+                "yaw": -163.495102,
+                "pitch": -42.422153
+            },
+            "position": {
+                "x": 1216.000000,
+                "y": -16.000000
+            }
+        },
+        {
+            "id": "mirage_windowsmoke_fast_4",
+            "name_zh_cn": "Mirage VIP瞬爆烟\\n四号位",
+            "name_en_us": "Mirage Instant Window\\nSpawn 4",
+            "map": "mirage",
+            "type": "smoke",
+            "priority": 1,
+            "throw_command": "hzNade_wjumpthrow_L",
+            "pre_throw_command": "",
+            "post_throw_command": "",
+            "angle": {
+                "yaw": -165.789886,
+                "pitch": -43.996048
+            },
+            "position": {
+                "x": 1216.000244,
+                "y": -115.000008
+            }
+        },
+        {
+            "id": "mirage_windowsmoke_fast_5",
+            "name_zh_cn": "Mirage VIP瞬爆烟\\n五号位",
+            "name_en_us": "Mirage Instant Window\\nSpawn 5",
+            "map": "mirage",
+            "type": "smoke",
+            "priority": 1,
+            "throw_command": "hzNade_wjumpthrow_L",
+            "pre_throw_command": "",
+            "post_throw_command": "",
+            "angle": {
+                "yaw": -168.063843,
+                "pitch": -45.045380
+            },
+            "position": {
+                "x": 1216.000488,
+                "y": -210.999954
+            }
+        }
+    ]
+}

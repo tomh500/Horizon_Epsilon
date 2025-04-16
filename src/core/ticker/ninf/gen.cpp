@@ -1,21 +1,38 @@
 #include <bits/stdc++.h>
 using namespace std;
 int main(){
-    int slp=515000;
-    int N=22;
-    ofstream init("init.cfg",ios::out);
-    for(int i=1;i<=N;i++){
-        init<<format("exec_async Horizon/src/core/ticker/ninf/file/_{}.cfg\n",i);
-    }
-    for(int o=1;o<=N;o++){
-        ofstream fout(format("file/_{}.cfg",o),ios::out|ios::binary);
-        for(int i=1;i<o;i++){
-            fout<<format("sleep {}\n",slp);
+    int L=520000;
+    int slp=L/0.8;
+    int m=25;
+    const string us="abcdefghijklmnopqrsuvwxyz";
+
+    for(int i=0;i<m;i++){
+        ofstream fout(format("gen/_{}.cfg",i),ios::out|ios::binary);
+        for(int j=1;j<=i;j++){
+            fout<<"sleep "+to_string(slp)<<'\n';
         }
-        for(int i=1;i<=520000;i++){
-            fout<<"$"<<'\n';
+        fout<<format("hzTicker_ninf_{}_begin\n",i);
+        for(int j=1;j<=L;j++){
+            fout<<us[i]<<'\n';
         }
+        fout.close();
     }
-    cout<<format("will last {:.5f}h",N*slp*1.0/1000.0/3600.0);
-    return 0;
+
+    cout<<"us "<<((slp*m)/1000.0/3600.0)<<endl;
+
+    ofstream fout(format("init.cfg"),ios::out|ios::binary);
+
+    fout<<"alias hzTicker_ninf_clr \"";
+    for(int i=0;i<m;i++){
+        fout<<format("alias {};",us[i]);
+    }
+    fout<<"\"\n";
+    for(int i=0;i<m;i++){
+        fout<<format("alias hzTicker_ninf_{}_begin \"hzTicker_ninf_clr;alias {} $\"\n",i,us[i]);
+    }
+
+    fout<<'\n';
+    for(int i=0;i<m;i++){
+        fout<<format("exec_async Horizon/src/core/ticker/ninf/gen/_{}.cfg\n",i);
+    }
 }
