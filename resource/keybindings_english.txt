@@ -4,9 +4,12 @@
 	"CFG_MAP_Mirage"										"荒漠迷城\n \n \n \n"
 	"CFG_MAP_Inferno"										"炼狱小镇\n \n \n \n"
 	"CFG_MAP_Ancient"										"远古遗迹\n \n \n \n"
-	"CFG_MAP_Vertigo"										"殒命大厦\n \n \n \n"
+	"CFG_MAP_Train"											"列车停放站\n \n \n \n"
 	"CFG_MAP_Nuke"											"核子危机\n \n \n \n"
 	"CFG_MAP_Anubis"										"阿努比斯\n \n \n \n"
+	
+	"CFG_MAP_Vertigo"										"殒命大厦\n \n \n \n"
+	"CFG_MAP_Other"											"其他地图\n \n \n \n"
 
 	"CFG_TEAM_CT"											"CT方 道具\n 反恐精英\n \n \n"
 	"CFG_TEAM_T"											"T方 道具\n 恐怖分子\n \n \n"
@@ -321,4 +324,12 @@
 	"Horizon_textemoji_021"										"(┬┬﹏┬┬)\n\n\n\n"
 	"Horizon_textemoji_022"										"ヽ(゜▽ﾟ)ノ\n\n\n\n"
 	"Horizon_textemoji_023"										"^(*￣(oo)￣)^\n\n\n\n"
+
+	"#mirage_windowsmoke_fast_1"										"Mirage Instant Window\nSpawn 1\n\n\n"
+	"#mirage_windowsmoke_fast_2"										"Mirage Instant Window\nSpawn 2\n\n\n"
+	"#mirage_windowsmoke_fast_3"										"Mirage Instant Window\nSpawn 3\n\n\n"
+	"#mirage_windowsmoke_fast_4"										"Mirage Instant Window\nSpawn 4\n\n\n"
+	"#mirage_windowsmoke_fast_5"										"Mirage Instant Window\nSpawn 5\n\n\n"
+	"#mirage_a1_ct_1"										"Mirage A1\nCT Smoke\n\n\n"
+	"#mirage_a2_molo"										"Mirage 二楼上下火\n\n\n\n"
 }
