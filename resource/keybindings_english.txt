@@ -325,11 +325,11 @@
 	"Horizon_textemoji_022"										"ヽ(゜▽ﾟ)ノ\n\n\n\n"
 	"Horizon_textemoji_023"										"^(*￣(oo)￣)^\n\n\n\n"
 
-	"#mirage_windowsmoke_fast_1"										"Mirage Instant Window\nSpawn 1\n\n\n"
-	"#mirage_windowsmoke_fast_2"										"Mirage Instant Window\nSpawn 2\n\n\n"
-	"#mirage_windowsmoke_fast_3"										"Mirage Instant Window\nSpawn 3\n\n\n"
-	"#mirage_windowsmoke_fast_4"										"Mirage Instant Window\nSpawn 4\n\n\n"
-	"#mirage_windowsmoke_fast_5"										"Mirage Instant Window\nSpawn 5\n\n\n"
-	"#mirage_a1_ct_1"										"Mirage A1\nCT Smoke\n\n\n"
-	"#mirage_a2_molo"										"Mirage 二楼上下火\n\n\n\n"
+	"#mirage_windowsmoke_fast_1"									"Mirage Instant Window\nSpawn 1\n\n\n"
+	"#mirage_windowsmoke_fast_2"									"Mirage Instant Window\nSpawn 2\n\n\n"
+	"#mirage_windowsmoke_fast_3"									"Mirage Instant Window\nSpawn 3\n\n\n"
+	"#mirage_windowsmoke_fast_4"									"Mirage Instant Window\nSpawn 4\n\n\n"
+	"#mirage_windowsmoke_fast_5"									"Mirage Instant Window\nSpawn 5\n\n\n"
+	"#mirage_a1_ct_1"									"Mirage A1\nCT Smoke\n\n\n"
+	"#mirage_a2_molo"									"Mirage 二楼上下火\n\n\n\n"
 }
