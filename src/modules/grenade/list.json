@@ -117,7 +117,7 @@
         {
             "id": "mirage_a2_molo",
             "name_zh_cn": "Mirage 二楼上下火\\n\\n\\n\\n",
-            "name_en_us": "Mirage 二楼上下火\\n\\n\\n\\n",
+            "name_en_us": "Mirage Palace\\n\\n\\n\\n",
             "map": "mirage",
             "type": "molo",
             "priority": 1,
@@ -127,6 +127,25 @@
             "angle": {
                 "yaw": -71.781441,
                 "pitch":-18.404875
+            },
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "id": "ancient_blong_molo",
+            "name_zh_cn": "Ancient B长包点火\\n\\n\\n\\n",
+            "name_en_us": "Ancient B长包点火\\n\\n\\n\\n",
+            "map": "ancient",
+            "type": "molo",
+            "priority": 1,
+            "throw_command": "hzNade_throw_L",
+            "pre_throw_command": "",
+            "post_throw_command": "",
+            "angle": {
+                "yaw": -27.797016,
+                "pitch":78.989197
             },
             "position": {
                 "x": 0,
