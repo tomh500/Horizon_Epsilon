@@ -1,25 +1,19 @@
-{
-    "tasks": [
-        {
-            "label": "Run CS2 Script",
-            "type": "shell",
-            "command": "scfg",
-            "args": [
-                "${fileBasename}"
-            ],
-            "options": {
-                "cwd": "${fileDirname}"
-            },
-            "presentation": {
-                "reveal": "always",
-                "close": false
-            },
-            "group": {
-              "kind": "build", // 将此任务设置为构建任务
-              "isDefault": true // 设置为默认任务
-            },
-            "problemMatcher": []
-        }
-    ],
-    "version": "2.0.0"
-}
+// {
+//     "tasks": [
+//         {
+//             "label": "f11",
+//             "type": "shell",
+//             "command":"echo",
+//             "args": [s
+//                 "${fileBasename}",
+//                 "${fileBaenameNoExtension}",
+//                 "\"${relativeFileDirname}\"",
+//                 "|",
+//                 "xargs",
+//                 "bash",
+//                 "build.sh"
+//             ]
+//         }
+//     ],
+//     "version": "2.0.0"
+// }
