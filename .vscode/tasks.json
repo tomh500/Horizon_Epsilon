@@ -1,19 +1,16 @@
-// {
-//     "tasks": [
-//         {
-//             "label": "f11",
-//             "type": "shell",
-//             "command":"echo",
-//             "args": [s
-//                 "${fileBasename}",
-//                 "${fileBaenameNoExtension}",
-//                 "\"${relativeFileDirname}\"",
-//                 "|",
-//                 "xargs",
-//                 "bash",
-//                 "build.sh"
-//             ]
-//         }
-//     ],
-//     "version": "2.0.0"
-// }
+{
+    "tasks": [
+        {
+            "label": "f9",
+            "type": "shell",
+            "command":"scfg",
+            "options": {
+                "cwd": "${fileDirname}"
+            },
+            "args": [
+                "${fileBasename}"
+            ]
+        }
+    ],
+    "version": "2.0.0"
+}
