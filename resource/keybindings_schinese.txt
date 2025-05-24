@@ -158,7 +158,7 @@
 	"CFG_Addon_PracticeSpawn_T21"							"⭐️T 出生点 21⭐️\n长按左键✔️ 上滚轮☚ 下滚轮☛ 右键返回地图选择"
 	"CFG_Addon_PracticeSpawn_T22"							"⭐️T 出生点 22⭐️\n长按左键✔️ 上滚轮☚ 下滚轮☛ 右键返回地图选择"
 
-	"Ignore_Broadcast_Messages"								"H‎o‎r‎i‎z‎o‎n C‎F‎G v‎5‎.‎2.1"
+	"Ignore_Broadcast_Messages"								"H‎o‎r‎i‎z‎o‎n C‎F‎G v‎5‎.‎4"
 	"Ignore_Broadcast_Team_Messages"						"B‎站 C‎a‎p‎1‎t‎a‎L 免‎费‎发‎布"
 	"Accept_All_Messages"									"此‎消‎息‎仅‎自‎己‎可‎见 | 观‎战‎和 d‎e‎m‎o‎录‎像 都‎不‎可‎见 | 第‎一‎回‎合‎结‎束‎后‎此‎消‎息‎消‎失"
 
