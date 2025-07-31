@@ -8,17 +8,17 @@ src("slot3")
 src("+back")
 src("+left")
 setAngle(-1.154999, 82.157326)
-src("setpos -1189.828491 -962.549011 -104.128754")
 
 -- 设置初始视角，向右前方走
-sleep(7)          -- ceil(0.1 * 64) = 7
+sleep(6)          -- ceil(0.1 * 64) = 6
+
 src("-back")
 src("-left")
 src("+forward")
 src("+right")
 
 -- 停止向右走
-sleep(39)         -- ceil(0.6 * 64) = 39
+sleep(38)         -- ceil(0.6 * 64) = 39
 src("-right")
 
 -- 松W起跳
@@ -37,17 +37,16 @@ src("-turnright")
 src("-right")
 src("+forward")
 setAngle(0.000000, 55.354614)
-src("setpos_exact -1069.560059 -591.568665 -263.968750")
 
 -- 再次起跳，大跳
-sleep(20)         -- 原 SLEEPTICK 20
+sleep(15)         -- 原 SLEEPTICK 20
 src("slot2;slot1")
 src("+duck")
 src("+jump;-jump")
 src("-forward")
 
 -- 小幅旋转调整
-sleep(7)          -- ceil(0.1 * 64) = 7
+sleep(6)          -- ceil(0.1 * 64) = 7
 src("-duck")
 src("turnright 0.4 0 0")
 src("+right")
@@ -61,5 +60,5 @@ unlockMouse()
 setAngle(10.056204, 75.278900)
 
 -- 取消下蹲
-sleep(20)         -- ceil(0.3 * 64) = 20
+sleep(19)         -- ceil(0.3 * 64) = 20
 src("-duck")
