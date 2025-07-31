@@ -232,7 +232,7 @@ if __name__ == "__main__":
         m_pitch = 0.022
 
         yaw = -entry['angle']['yaw'] / (sensitivity * m_yaw)
-        pitch = entry['angle']['pitch'] / (sensitivity * m_pitch)
+        pitch = (entry['angle']['pitch']-89.00) / (sensitivity * m_pitch)
 
         grenade_type = entry['type']
         grenade_map = entry['map']
