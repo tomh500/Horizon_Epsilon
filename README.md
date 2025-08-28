@@ -17,13 +17,7 @@
     </a>
 </p>
 
-## What's Horizon?
-Horizon is a large-scale CS2 CFG project aimed at integrating and supporting all CS2 CFG functionalities while offering powerful customization options. Horizon is primarily designed for competitivee rules, meaning it operates under `sv_cheats 0`. However, it also includes some features that can be used in personal practicees.
+## Horizon_Epsilon
+这是一款base on Horizon开发的竞技模式下的实战CFG，旨在提供良好的游戏体验而不获得VAC封禁，本产品由无损平方团队开发，如果您感兴趣，请关注我们的产品Summer客户端
+ 
 
-The ultimate goal of Horizon is to become the only CFG you'll ever need for CS2. 
-
-In most cases, using Horizon will not result in a VAC ban. It is simply a CFG project. 
-
-## Join our Discord
-
-[![Join our Discord](https://discord.com/api/guilds/1274021425438789753/embed.png?style=banner2)](https://discord.gg/AW23HR4Fza)

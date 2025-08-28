@@ -161,7 +161,7 @@ def generate_gui_files(txt_path):
                 cvar = f'cl_radial_radio_tab_{slot}_text_{idx}'
                 if idx in reserved_indices:
                     if idx == 1:
-                        cmd_lines.append(f'{cvar} cmd";alias hzGUI_grenade_setTXT exec Horizon/src/gui/grenade/gui_1_txt.cfg;alias hzGUI_grenade_setCMD exec Horizon/src/gui/grenade/gui_1_cmd.cfg;\n')
+                        cmd_lines.append(f'{cvar} cmd";alias hzGUI_grenade_setTXT exec Horizon_Epsilon/src/gui/grenade/gui_1_txt.cfg;alias hzGUI_grenade_setCMD exec Horizon_Epsilon/src/gui/grenade/gui_1_cmd.cfg;\n')
                         txt_lines.append(f'{cvar} "#CFG_Function_LstMenu"\n')
                     elif idx==8:
                         if slot==0:
@@ -239,7 +239,7 @@ if __name__ == "__main__":
         grenade_priority = entry['priority']
 
         alias_name = f"{grenade_id}"
-        alias_list = append_text(alias_list, f'alias hzNade_load_{alias_name} exec Horizon/src/modules/grenade/data/{grenade_id}.cfg')
+        alias_list = append_text(alias_list, f'alias hzNade_load_{alias_name} exec Horizon_Epsilon/src/modules/grenade/data/{grenade_id}.cfg')
         generator.add(grenade_map, alias_name, grenade_priority)
 
         config_content = ""

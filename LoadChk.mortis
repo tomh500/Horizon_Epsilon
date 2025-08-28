@@ -1,0 +1,9 @@
+sleep 500
+stopsound
+snd_menumusic_volume 0
+play boot
+sleep 5000
+snd_menumusic_volume 0.05
+alias hzLoadCheck_installbat "bind mouse_x say_team 请运行install.bat后重启游戏！你还没有正确安装CFG"
+exec installbatload_5_6.cfg GAMEROOT 
+hzLoadCheck_installbat
