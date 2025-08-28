@@ -161,7 +161,7 @@
 
 	"Ignore_Broadcast_Messages"								"H‎o‎r‎i‎z‎o‎n‎_‎E‎p‎s‎i‎l‎o‎n‎ ‎5‎.‎6‎ ‎R‎e‎l‎e‎a‎s‎e‎d‎ ‎F‎o‎r‎ ‎F‎r‎e‎e"
 	"Ignore_Broadcast_Team_Messages"						"视‎野‎客‎户‎端‎_‎伊‎普‎西‎隆‎ ‎5‎.‎6‎ ‎免‎费‎发‎布"
-	"Accept_All_Messages"									"-‎C‎a‎p‎1‎t‎a‎L‎-‎ ‎分‎支‎：‎L‎u‎o‎t‎i‎a‎n‎y‎i‎_‎M‎a‎r‎ ‎项‎目‎受‎开‎源‎协‎议‎保‎护‎，‎本‎消‎息‎仅‎自‎己‎可‎见"
+	"Accept_All_Messages"									"原‎作‎：-‎C‎a‎p‎1‎t‎a‎L‎-‎ ‎分‎支‎：‎L‎u‎o‎t‎i‎a‎n‎y‎i‎_‎M‎a‎r‎ ‎项‎目‎受‎开‎源‎协‎议‎保‎护‎，‎本‎消‎息‎仅‎自‎己‎可‎见"
 
 	"Horizon_textemoji_000"										"¯\_(ツ)_/¯\n\n\n\n"
 	"Horizon_textemoji_001"										"w(ﾟДﾟ)w\n\n\n\n"
