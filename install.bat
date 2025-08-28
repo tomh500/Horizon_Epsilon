@@ -6,9 +6,21 @@ REM 进入 RootPath 目录
 pushd "%~dp0"
 echo [INFO] 当前路径为：%CD%
 
+REM 检查目录路径是否包含 game\csgo\cfg\Horizon_Epsilon
+echo [INFO] 检查运行目录合法性...
+echo %CD% | findstr /I /C:"game\csgo\cfg\Horizon_Epsilon" >nul
+if errorlevel 1 (
+    echo [ERROR] 当前路径不合法，请在 game\csgo\cfg\Horizon_Epsilon 目录下运行此脚本！
+    popd
+    pause
+    exit /b
+) else (
+    echo [INFO] 路径合法，继续执行...
+)
+
 REM 设置路径变量
 set "SrcPath=%CD%\src\resources"
-set "TargetBase=%CD%\..\..\"
+set "TargetBase=%CD%\..\..\" 
 set "TargetResource=%TargetBase%resource"
 set "TargetSounds=%TargetBase%sounds"
 set "TargetCfg=%CD%\..\..\..\cfg"
