@@ -12,7 +12,7 @@ Copy the `Horizon` **folder** to your CS2 CFG folder.
 
 Double-click to open the `autoexec.cfg` file in the CFG folder. You can open it with Notepad. If it doesn't exist, simply create it.
 
-At the end of the `autoexec.cfg` file, add a new line and type `exec Horizon_Epsilon/load`.
+At the end of the `autoexec.cfg` file, add a new line and type `exec Horizon/load`.
 
 **Press CTRL + S to save, then close the file.**
 

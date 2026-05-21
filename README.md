@@ -17,7 +17,7 @@
     </a>
 </p>
 
-## Horizon_Epsilon
+## Horizon
 这是一款base on Horizon开发的竞技模式下的实战CFG，旨在提供良好的游戏体验而不获得VAC封禁，本产品由无损平方团队开发，如果您感兴趣，请关注我们的产品Summer客户端
  
 
